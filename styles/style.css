@@ -8,8 +8,12 @@ main section {
 }
 
 main {
-  border-bottom: 2px solid #c9a83f;
   padding-bottom: 30px;
+}
+
+footer {
+  border-top: 2px solid #c9a83f;
+  padding-top: 20px;
 }
 
 header {
@@ -46,4 +50,14 @@ form label {
 
 footer div h1 {
   font-size: 30px;
+}
+
+main .btn-warning:hover {
+  background-color: rgb(158, 164, 178);
+  transition: 0.2s ease;
+  border-color: rgb(158, 164, 178);
+}
+
+.table .thead-th {
+  background-color: #c9a83f;
 }
