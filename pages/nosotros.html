@@ -16,37 +16,26 @@
       href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../styles/nosotros.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
   </head>
   <body>
     <!-- Header -->
-    <header>
+    <header class="bg-dark">
       <nav class="navbar navbar-light navbar-expand-lg">
         <div class="container-fluid">
           <!-- Logo y título -->
           <a href="../index.html" class="navbar-brand">
             <img
               src="../public/logo sin titulo.png"
-              alt="Logo Nommade"
+              class="img-fluid"
+              alt="Logo Nommade header"
               width="150px"
             />
             NOMMADE
           </a>
 
-          <!-- Botón para el despliegue del menu cuando el dispositivo baja su resolución -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#menu"
-            aria-controls="menu"
-            aria-expanded="false"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <!--Menú de navegación expandido-->
-          <div class="collapse navbar-collapse justify-content-end" id="menu">
+          <!--Menú de navegación -->
+          <div class="justify-content-end">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a href="../index.html" class="nav-link">Inicio</a>
@@ -67,22 +56,22 @@
     </header>
 
     <!-- Contenido de la página -->
-    <main class="pb-5">
-      <h1 class="text-center text-dorado py-5">¿Quiénes somos?</h1>
-      <div class="container bg-negro">
+    <main class="pb-5 bg-dark">
+      <h1 class="text-center text-warning py-5">¿Quiénes somos?</h1>
+      <div class="container bg-dark">
         <div class="row">
-          <div class="card bg-negro col-sm-12 col-md-6 col-lg-6">
-            <h2 class="card-title text-center text-dorado">Paula Birchenz</h2>
+          <div class="card bg-dark col-sm-12 col-md-6 col-lg-6">
+            <h2 class="card-title text-center text-warning">Paula Birchenz</h2>
             <div class="card-body">
               <img
                 class="card-img-top"
                 src="../public/default.webp"
                 alt="Paula Birchenz"
               />
-              <h3 class="card-title text-center text-dorado pt-4">
+              <h3 class="card-title text-center text-warning pt-4">
                 Redes sociales
               </h3>
-              <p class="card-text text-center text-dorado">
+              <p class="card-text text-center text-warning">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Quibusdam vero hic, quaerat dolore animi quae a? Incidunt nobis,
                 dolorem, asperiores porro error tenetur odit animi, autem quasi
@@ -90,18 +79,18 @@
               </p>
             </div>
           </div>
-          <div class="card bg-negro col-sm-12 col-md-6 col-lg-6">
-            <h2 class="card-title text-center text-dorado">Desconocido</h2>
+          <div class="card bg-dark col-sm-12 col-md-6 col-lg-6">
+            <h2 class="card-title text-center text-warning">Desconocido</h2>
             <div class="card-body">
               <img
                 class="card-img-top"
                 src="../public/default.webp"
                 alt="Desconocido"
               />
-              <h3 class="card-title text-center text-dorado pt-4">
+              <h3 class="card-title text-center text-warning pt-4">
                 Redes sociales
               </h3>
-              <p class="card-text text-center text-dorado">
+              <p class="card-text text-center text-warning">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
                 cumque placeat unde soluta, quasi quaerat voluptatem nostrum vel
                 enim aliquid iusto et eaque omnis sit, excepturi dicta deserunt
@@ -114,22 +103,20 @@
     </main>
 
     <!-- Por último, el pie de página -->
-    <footer class="container-fluid bg-negro">
+    <footer class="container-fluid bg-dark">
       <div class="row">
-        <div class="col-sm-12 text-center my-5">
-          <img src="../public/logo.jpg" alt="Logo" width="200px" />
+        <div class="col-sm-12 col-md-12 col-lg-12 text-center my-5">
+          <img src="../public/logo.jpg" alt="Logo de footer" width="200px" />
         </div>
 
-        <div class="col-lg-4 text-center text-dorado">
-          <h1>Contactos</h1>
+        <div class="col-sm-12 col-md-4 col-lg-4 text-center">
+          <p class="h4 text-warning">Contactos</p>
         </div>
-
-        <div class="col-lg-4 text-center text-dorado">
-          <h1>Políticas y privacidad</h1>
+        <div class="col-sm-12 col-md-4 col-lg-4 text-center">
+          <p class="h4 text-warning">Políticas y privacidad</p>
         </div>
-
-        <div class="col-lg-4 text-center text-dorado">
-          <h1>Donde nos encontramos</h1>
+        <div class="col-sm-12 col-md-4 col-lg-4 text-center">
+          <p class="h4 text-warning">Donde nos encontramos</p>
         </div>
       </div>
     </footer>

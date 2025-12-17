@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nommade oficial</title>
-    <link rel="stylesheet" href="../styles/compras.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,33 +20,22 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
+    <header class="bg-dark">
       <nav class="navbar navbar-light navbar-expand-lg">
         <div class="container-fluid">
           <!-- Logo y título -->
           <a href="../index.html" class="navbar-brand">
             <img
               src="../public/logo sin titulo.png"
-              alt="Logo Nommade"
+              class="img-fluid"
+              alt="Logo Nommade header"
               width="150px"
             />
             NOMMADE
           </a>
 
-          <!-- Botón para el despliegue del menu cuando el dispositivo baja su resolución -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#menu"
-            aria-controls="menu"
-            aria-expanded="false"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <!--Menú de navegación expandido-->
-          <div class="collapse navbar-collapse justify-content-end" id="menu">
+          <!--Menú de navegación -->
+          <div class="justify-content-end">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a href="../index.html" class="nav-link">Inicio</a>
@@ -67,7 +56,7 @@
     </header>
 
     <!-- Contenido de la página -->
-    <main class="py-5 bg-negro">
+    <main class="py-5 bg-dark">
       <table class="table">
         <thead>
           <tr>
@@ -108,22 +97,20 @@
     </main>
 
     <!-- Por último, el pie de página -->
-    <footer class="container-fluid bg-negro">
+    <footer class="container-fluid bg-dark">
       <div class="row">
-        <div class="col-sm-12 text-center my-5">
-          <img src="../public/logo.jpg" alt="Logo" width="200px" />
+        <div class="col-sm-12 col-md-12 col-lg-12 text-center my-5">
+          <img src="../public/logo.jpg" alt="Logo de footer" width="200px" />
         </div>
 
-        <div class="col-lg-4 text-center text-dorado">
-          <h1>Contactos</h1>
+        <div class="col-sm-12 col-md-4 col-lg-4 text-center">
+          <p class="h4 text-warning">Contactos</p>
         </div>
-
-        <div class="col-lg-4 text-center text-dorado">
-          <h1>Políticas y privacidad</h1>
+        <div class="col-sm-12 col-md-4 col-lg-4 text-center">
+          <p class="h4 text-warning">Políticas y privacidad</p>
         </div>
-
-        <div class="col-lg-4 text-center text-dorado">
-          <h1>Donde nos encontramos</h1>
+        <div class="col-sm-12 col-md-4 col-lg-4 text-center">
+          <p class="h4 text-warning">Donde nos encontramos</p>
         </div>
       </div>
     </footer>
