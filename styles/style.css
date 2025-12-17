@@ -31,8 +31,22 @@ nav .nav-link:hover {
 }
 
 nav .navbar-brand {
-  font-size: 70px;
+  font-size: 30px;
   color: #c9a83f;
+}
+
+@media (min-width: 768px) {
+  nav .navbar-brand {
+    font-size: 50px;
+    color: #c9a83f;
+  }
+}
+
+@media (min-width: 992px) {
+  nav .navbar-brand {
+    font-size: 70px;
+    color: #c9a83f;
+  }
 }
 
 nav .nav-link {
