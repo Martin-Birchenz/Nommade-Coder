@@ -4,10 +4,11 @@ body {
 body header {
   color: #c9a83f;
   background-color: black;
-  border-bottom: 2px solid #c9a83f;
+  border-bottom: 3px solid #c9a83f;
 }
 body header nav .navbar-brand {
   color: #c9a83f;
+  font-weight: bold;
 }
 body header nav .navbar-brand:hover {
   color: rgb(158, 164, 178);
@@ -15,19 +16,20 @@ body header nav .navbar-brand:hover {
 }
 @media (min-width: 768px) {
   body header nav .navbar-brand {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 @media (min-width: 992px) {
   body header nav .navbar-brand {
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 body header nav ul {
   gap: 20px;
 }
 body header nav ul .nav-link {
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: bold;
   color: #c9a83f;
 }
 body header nav ul .nav-link:hover {
@@ -35,9 +37,7 @@ body header nav ul .nav-link:hover {
   transition: 0.2s ease;
 }
 body main {
-  color: #c9a83f;
   background-color: black;
-  padding-bottom: 30px;
 }
 body main table .thead-th {
   background-color: #c9a83f;
