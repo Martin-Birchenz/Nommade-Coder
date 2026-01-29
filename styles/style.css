@@ -51,6 +51,22 @@ body main section {
   border-bottom: 2px solid #c9a83f;
   padding-bottom: 30px;
 }
+body main section .custom-caption h4 {
+  font-size: 1.2rem;
+}
+@media (min-width: 768px) {
+  body main section .custom-caption h4 {
+    font-size: 2rem;
+  }
+}
+body main section .custom-caption p {
+  font-size: 0.9rem;
+}
+@media (min-width: 768px) {
+  body main section .custom-caption p {
+    font-size: 1.25rem;
+  }
+}
 body main section label {
   font-size: 25px;
 }
